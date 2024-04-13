@@ -1,7 +1,8 @@
 # URLWizard
 This Python script provides a graphical user interface (GUI) for performing various web-related tasks such as handling cookies, joining URLs, and parsing URLs. It utilizes the tkinter library for the GUI components and standard Python libraries for web-related functionality.
 
-Features
+
+# Features
 Handle Cookies
 This feature allows you to retrieve and display cookies from a specified URL. It uses the http.cookiejar and urllib.request modules to handle HTTP cookies.
 
@@ -11,7 +12,7 @@ This feature enables you to join multiple URLs to a base URL and display the res
 Parse URL
 This feature parses a provided URL and displays its components such as the network location (netloc), query string, and parsed query parameters. It uses the urllib.parse.urlparse function for URL parsing.
 
-Usage
+# Usage
 Enter a URL in the text entry field.
 Click the corresponding button to perform the desired action.
 The output will be displayed in the text area below.
@@ -20,10 +21,4 @@ tkinter: Standard GUI library for Python.
 http.cookiejar: Library for handling HTTP cookies.
 urllib.request: Library for opening URLs.
 urllib.parse: Library for parsing URLs.
-How to Run
-Make sure you have Python installed on your system.
-Run the script using the following command:
-php
-Copy code
-python .py
-Replace <script_name> with the name of the Python script file.
+
